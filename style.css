@@ -163,6 +163,9 @@ section:nth-child(6) .block{
         border: none;
         padding: 0 !important;
     }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
     .hero{
         display: flex;
         flex-direction: column;
