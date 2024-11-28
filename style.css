@@ -25,6 +25,10 @@ nav{
 nav ul{
     gap: 2em;
 }
+.navbar-collapse.collapsing{
+    display: flex;
+    justify-content: flex-end;
+}
 .collapse{
     text-align: end !important;
 }
