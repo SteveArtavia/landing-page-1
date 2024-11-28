@@ -6,6 +6,9 @@
 }
 header{
     background-color: white !important;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 #logo{
     border: 8px solid black;
@@ -41,6 +44,7 @@ button{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin-top: 0;
+    margin-top: 7em;
 }
 .img{
     text-align: right;
@@ -171,6 +175,7 @@ section:nth-child(6) .block{
     section:nth-child(4){
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     section:nth-child(4) .title{
         display: flex;
@@ -208,6 +213,7 @@ section:nth-child(6) .block{
     section:nth-child(6) .title{
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     section:nth-child(6) .block{
         display: flex;
@@ -223,6 +229,9 @@ section:nth-child(6) .block{
         border-right: none;
         border-top: 1px solid white;
         border-bottom: 1px solid white;
+    }
+    footer{
+        text-align: center;
     }
 
 }
